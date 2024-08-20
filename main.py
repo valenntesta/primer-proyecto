@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = FastAPI()
 
 # Cargar el dataset
-movies = pd.read_parquet(r"C:\Users\Usuario\Desktop\compartir\Dataset\Credits_movies_final.parquet")  # Asegúrate de especificar la ruta correcta
+movies = pd.read_parquet('Dataset/Credits_movies_final.parquet')  # Asegúrate de especificar la ruta correcta
 
  #Crear el vectorizador y ajustar al dataset
 tfidf_vectorizer = TfidfVectorizer(stop_words='english')
