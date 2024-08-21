@@ -19,7 +19,7 @@ movies['fecha_lanzamiento'] = pd.to_datetime(movies['release_date'], errors='coe
 # Ruta raíz
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenido a la API de Películas"}
+    return {"message": "Bienvenido a la API de Películas, aqui podras hacer tus consultas https://primer-proyecto-tga1.onrender.com/docs#/"}
 
 # 1. Función para cantidad de filmaciones por mes
 @app.get("/cantidad_filmaciones_mes/{mes}")
