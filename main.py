@@ -16,10 +16,10 @@ tfidf_matrix = tfidf_vectorizer.fit_transform(movies['overview'].fillna(''))
 # Convertir las fechas si no lo has hecho aún
 movies['fecha_lanzamiento'] = pd.to_datetime(movies['release_date'], errors='coerce')
 
-# Ruta raíz
-@app.get("/")
+# Ruta raíz que redirige a /docs
+@app.get("/", include_in_schema=False)
 def read_root():
-    return {"message": "Bienvenido a la API de Películas"}
+    return RedirectResponse(url="/docs")
 
 # 1. Función para cantidad de filmaciones por mes
 @app.get("/cantidad_filmaciones_mes/{mes}")
