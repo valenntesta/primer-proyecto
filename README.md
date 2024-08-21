@@ -70,8 +70,7 @@ Devuelve la información de las películas dirigidas por un director específico
 7. GET /recomendacion/
 Recomienda películas similares a la ingresada basadas en la similitud de sus descripciones.
 
-Modelo de Recomendación
-Propósito:
+*Modelo de Recomendación*
 El modelo de recomendación sugiere películas similares a una película dada, basándose en las descripciones de las películas.
 
 Cómo Funciona:
