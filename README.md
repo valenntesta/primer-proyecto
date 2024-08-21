@@ -1,6 +1,6 @@
-# Sistema de Recomendación de Películas de Disney
+# Sistema de Recomendación de Películas
 
-Este proyecto consiste en el desarrollo de una API utilizando FastAPI para ofrecer funcionalidades relacionadas con un sistema de recomendación de películas de Disney. La API proporciona varias consultas sobre los datos de películas, actores y directores, además de un sistema de recomendación basado en la similitud de las películas.
+Este proyecto consiste en el desarrollo de una API utilizando FastAPI para ofrecer funcionalidades relacionadas con un sistema de recomendación de películas. La API proporciona varias consultas sobre los datos de películas, actores y directores, además de un sistema de recomendación basado en la similitud de las películas.
 
 ## Contenidos
 
