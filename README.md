@@ -79,7 +79,7 @@ Proceso: El modelo analiza las descripciones (sinopsis) de todas las películas 
 Salida: El modelo devuelve una lista de 5 películas que son más similares a la película proporcionada, según la similitud de sus descripciones.
 
 Video de Demostración
-Aquí puedes encontrar un video que demuestra el funcionamiento de la API y del sistema de recomendación: 
+Aquí puedes encontrar un video que demuestra el funcionamiento de la API y del sistema de recomendación: https://www.youtube.com/watch?v=k0pWxBDspYA
 
 Contribuciones
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork del repositorio y enviar un pull request.
